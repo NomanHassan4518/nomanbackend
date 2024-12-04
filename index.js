@@ -4,7 +4,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js on Vercel!');
+  res.send('Vercel is running!');
 });
 
 app.get("/login",(req,res)=>{
